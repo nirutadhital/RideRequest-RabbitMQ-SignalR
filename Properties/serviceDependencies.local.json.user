@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "rabbitmq1": {
+      "restored": true,
+      "restoreTime": "2024-01-20T06:29:00.8563144Z"
+    }
+  },
+  "parameters": {}
+}

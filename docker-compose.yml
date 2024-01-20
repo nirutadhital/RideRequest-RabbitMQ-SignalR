@@ -1,0 +1,11 @@
+version: '4.26.1'
+services:
+  rabbitmq:
+    container_name: "rabbitmqRideDemo"
+    image: rabbitmq:3.8-management-alpine
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin  # Corrected the spacing here
+    ports:
+      - '5672:5672'  # RabbitMQ instance
+      - '15672:15672'  # Web interface
